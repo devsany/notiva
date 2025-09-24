@@ -123,7 +123,7 @@ const NotesApp = () => {
     a.href = url;
     a.download = `${formData.title
       .replace(/[^a-z0-9]/gi, "_")
-      .toLowerCase()}.md`;
+      .toLowerCase()}.txt`;
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -243,7 +243,7 @@ const NotesApp = () => {
                   }`}
                 >
                   <option value="">All Categories</option>
-                  <option value="python">python</option>
+                  <option value=""></option>
                   <option value="personal">Personal</option>
                   <option value="ideas">Ideas</option>
                   <option value="todo">Todo</option>
@@ -437,7 +437,7 @@ const NotesApp = () => {
                     }`}
                   >
                     <option value="">Select Category</option>
-                    <option value="python">python</option>
+                    <option value=""></option>
                     <option value="personal">Personal</option>
                     <option value="ideas">Ideas</option>
                     <option value="todo">Todo</option>

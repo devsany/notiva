@@ -243,7 +243,7 @@ const NotesApp = () => {
                   }`}
                 >
                   <option value="">All Categories</option>
-                  <option value="work">Work</option>
+                  <option value="python">python</option>
                   <option value="personal">Personal</option>
                   <option value="ideas">Ideas</option>
                   <option value="todo">Todo</option>
@@ -437,7 +437,7 @@ const NotesApp = () => {
                     }`}
                   >
                     <option value="">Select Category</option>
-                    <option value="work">Work</option>
+                    <option value="python">python</option>
                     <option value="personal">Personal</option>
                     <option value="ideas">Ideas</option>
                     <option value="todo">Todo</option>

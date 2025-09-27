@@ -1,5 +1,6 @@
 import Accordian from "./component/Accordian";
 import Carousel from "./component/Carousel";
+import DisplayUSer from "./component/DisplayUSer";
 import SearchFilter from "./component/SearchFilter";
 import Todo from "./component/Todo";
 import ToggleText from "./component/ToggleText";
@@ -13,7 +14,8 @@ export default function Home() {
       {/* <Todo /> */}
       {/* <SearchFilter /> */}
       {/* <Accordian /> */}
-    <Carousel />
+      {/* <Carousel /> */}
+      <DisplayUSer />
     </div>
   );
 }
